@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Template</title>
 </head>
-<body>
+<body class="flex flex-col">
     <h1 class="text-4xl text-blue-700">My Webpack + Tailwind App</h1>
-    <p class="text-2xl text-red-500">Hello</p>
-    okay
+    <p class="text-red-700">First image is defined in the template, the second is defined in index.js</p>
+    <div class="image flex justify-center gap-10 flex-row">
+        <!-- How to use an image tag in a template -->
+        <img src="<%=require('./assets/cat.jpeg')%>">
+    </div>
 </body>
 </html>
