@@ -12,3 +12,6 @@ clone this repo into a folder and type this into the command line:
 ```$ npm install``
 
 this will download all of the packages required which you can check in the package.json file
+
+### Extra
+based on this github guide: https://gist.github.com/bradtraversy/1c93938c1fe4f10d1e5b0532ae22e16a
